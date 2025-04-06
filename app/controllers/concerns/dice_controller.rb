@@ -3,7 +3,7 @@ class DiceController < ApplicationController
  def homepage
   render(template: "game_templates/homepage")
   end
- end
+ 
 
   def two_six
 
@@ -68,3 +68,5 @@ class DiceController < ApplicationController
     render(template: "game_templates/dynamic")
 
   end
+end
+  
